@@ -1,0 +1,852 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+html{
+  width: 1920px;
+  background-color: #0B1D26;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+  position: relative;
+  width: 80%;
+  
+}
+.background{
+ object-fit: fill;
+ position: absolute;
+}
+
+header{
+position: absolute;
+margin: 4% 10%;
+display: flex;
+flex-direction: row;
+width: 950px;
+height: 37px;
+left: -18px;
+top: -7px;
+
+
+}
+.Logo{
+position: absolute;
+bottom: 10px;
+right: 917px;
+display: flex;
+width: 113px;
+height: 37px;
+gap: 4px;
+}
+.Logo p{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 43px;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+color: #FFFFFF;
+
+}
+.navigation{
+position: absolute;
+left: 186px;
+bottom: 29px;
+width: 102px;
+height: 27px;
+margin: 0 50%;
+gap: 20px;
+}
+.navigation li{
+ list-style: none;
+ 
+}
+.navigation ul{
+  display: flex;
+  gap: 33px;
+  margin-top: 17px;
+
+}
+.navigation a{
+white-space: nowrap;
+text-decoration: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #ffffff;
+transition: all 1s ease;
+}
+.navigation a:hover{
+  color: #FBD784;
+}
+.account{
+  position: absolute;
+  bottom: 12px;
+  left: 1480px;
+  display: flex;
+  margin-top: 17px;
+  margin-left: 10%;
+  transition: all 1s ease;
+}
+.account:hover{
+  border: 3px solid #0B1D26;
+  border-radius: 17%;
+  background-color: #0B1D26;
+}
+.account img{
+width: 24px;
+height: 24px;
+}
+
+
+.account p{
+width: 74px;
+height: 26px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+.hero {
+  position: relative;
+  top:360px
+}
+.messen{
+  display: flex;
+  gap: 25px;
+  writing-mode: vertical-rl;
+  position: absolute;
+  left: 80px;
+  white-space: nowrap;
+}
+.messen p{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.glav_ban{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 950px;
+height: 419px;
+left: 500px;
+top: 287px;
+}
+
+.up{
+width: 323px;
+height: 27px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.line{
+position: absolute;
+width: 72px;
+height: 2px;
+left: 0px;
+bottom: 765px;
+background: #FBD784;
+}
+.up p{
+position: absolute;
+width: 219px;
+height: 27px;
+left: 104px;
+bottom: 750px;
+white-space: nowrap;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 6px;
+text-transform: uppercase;
+color: #FBD784;
+}
+.baner{
+  /* Be prepared for the Mountains and beyond! */
+
+width: 950px;
+height: 300px;
+position: relative;
+bottom: 360px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 600;
+font-size: 88px;
+line-height: 100px;
+text-transform: capitalize;
+color: #FFFFFF;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.down{
+position: absolute;
+bottom: 750px;
+width: 126px;
+height: 28px;
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+.down p{
+position: absolute;
+width: 106px;
+height: 27px;
+left: 0px;
+top: 392px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+
+}
+
+.down img{
+position: absolute;
+width: 16px;
+height: 24px;
+left: 110px;
+top: 391px;
+
+
+}
+
+.slider{
+position: absolute;
+width: 3px;
+height: 240px;
+left: 1760px;
+top: -25px;
+}
+.slide_text{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 40px;
+position: absolute;
+width: 46px;
+height: 228px;
+left: 1px;
+top: 5px;
+
+
+}
+
+.slide_text p{
+ /* Start */
+
+width: 46px;
+height: 27px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+text-align: right;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+ 
+}
+
+.slider_img{
+position: absolute;
+left: 75px;
+top: -10px;
+}
+
+.long{
+position: absolute;
+width: 3px;
+height: 240px;
+left: 0px;
+top: 26px;
+background: #FFFFFF;
+opacity: 0.5;
+
+}
+
+
+.number{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 240px;
+  line-height: 240px;
+  color: #FFFFFF;
+  opacity: 0.1;
+  position: absolute;
+  top: 1470px;
+  left: 245px;
+  }
+  
+  .up_2{
+    position: absolute;
+    bottom: 462px;
+    display: flex;
+    left: 4px;
+
+    
+  }
+  .up_2 img{
+  
+
+position: absolute;
+width: 72px;
+height: 2px;
+left: 0px;
+top: 10px;
+background: #FBD784;
+
+  
+  }
+  .up_2 p{
+    /* GEt Started */
+    white-space: nowrap;
+position: absolute;
+width: 180px;
+height: 27px;
+left: 96px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+letter-spacing: 6px;
+text-transform: uppercase;
+
+/* Accent */
+color: #FBD784;
+
+
+  }
+  .glav_text{
+  /* What level of hiker are you? */
+
+width: 555px;
+height: 170px;
+position: absolute;
+bottom: 238px;
+left: 1px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 85px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: flex-start;
+flex-grow: 0;
+
+  }
+  .text_content{
+    position: absolute;
+    top: 1880px;
+    left: 369px;
+    
+  }
+  .text{
+  width: 632px;
+  height: 160px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  flex: none;
+  order: 2;
+  align-self: center;
+  flex-grow: 0;
+  
+  }
+  
+  .more{
+  width: 127px;
+  height: 27px;
+  flex: none;
+  order: 3;
+  align-self: flex-start;
+  flex-grow: 0;
+  margin-top: 25px;
+  
+  }
+  .more p{
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  
+  color: #FBD784;
+  
+  
+  }
+  .more img{
+    /* icon/navigation/arrow_downward_24px */
+  
+  position: absolute;
+  height: 24px;
+  bottom: 4px;
+  left: 100px;
+  
+  
+  }
+  .pikch{
+    width: 566px;
+    height: 720px;
+    left: 1136px;
+    top:1440px;
+    margin: 0px;
+    position: absolute;
+    
+    
+  
+  }
+  
+  
+  
+  .number_two{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 240px;
+    color: #FFFFFF;
+    opacity: 0.1;
+    position: absolute;
+    top: 2400px;
+    left: 920px;
+    }
+    
+    .up_2_two{
+      display: flex;
+      position: absolute;
+      bottom: -30px;
+      left: 180px;
+    }
+    .up_2_two img{
+position: absolute;
+width: 72px;
+height: 2px;
+left: 0px;
+top: 10px;
+background: #FBD784;
+
+    
+    }
+    .up_2_two p{
+      /* Hiking Essentials */
+      white-space: nowrap;
+position: absolute;
+width: 271px;
+height: 27px;
+left: 96px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+letter-spacing: 6px;
+text-transform: uppercase;
+
+/* Accent */
+color: #FBD784;
+
+
+    }
+    .glav_text_two{
+    /* Picking the right Hiking Gear! */
+
+width: 555px;
+height: 192px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 96px;
+
+color: #FFFFFF;
+position: absolute;
+top: 88px;
+left: 180px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+;
+    }
+    .text_content_two{
+      position: absolute;
+      top: 2530px;
+      left: 890px;
+      
+    }
+    .text_two{
+    width: 632px;
+    height: 160px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    align-self: center;
+    flex-grow: 0;
+    position: absolute;
+    top: 304px;
+    left: 180px;
+    }
+    
+    .more_two{
+    width: 127px;
+    height: 27px;
+    flex: none;
+    order: 3;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin-top: 25px;
+    position: absolute;
+    top:500px;
+    left: 180px;
+    
+    }
+    .more_two p{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #FBD784;
+    
+    
+    }
+    .more_two img{
+      /* icon/navigation/arrow_downward_24px */
+    
+    position: absolute;
+    height: 24px;
+    bottom: 4px;
+    left: 100px;
+    
+    
+    }
+    .pikch_two{
+      width: 566px;
+      height: 720px;
+      left: 236px;
+      top:2355px;
+      margin: 0px;
+      position: absolute;
+      
+      
+    
+    }
+  
+  
+    .number_three{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 240px;
+      line-height: 240px;
+      color: #FFFFFF;
+      opacity: 0.1;
+      position: absolute;
+      top: 3320px;
+      left: 230px;
+      }
+      
+      .up_2_three{
+        display: flex;
+        position: absolute;
+        top: 79px;
+        left: 60px;
+        
+      }
+      .up_2_three img{
+        height: 2px;
+        margin-top: 12px;
+        width: 72px;
+        margin-right: 10px;
+        /* Line */
+
+
+
+/* Accent */
+background: #FBD784;
+
+      
+      }
+      .up_2_three p{
+        /* Hiking Essentials */
+        white-space: nowrap;
+position: absolute;
+width: 271px;
+height: 27px;
+left: 96px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+letter-spacing: 6px;
+text-transform: uppercase;
+
+/* Accent */
+color: #FBD784;
+
+
+      }
+      .glav_text_three{
+      /* Picking the right Hiking Gear! */
+
+width: 555px;
+height: 192px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 96px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+position: absolute;
+top: 130px;
+left: 60px;
+
+      }
+      .text_content_three{
+        position: absolute;
+        top: 3380px;
+        left: 310px;
+        
+      }
+      .text_three{
+      width: 632px;
+      height: 160px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 32px;
+      color: #FFFFFF;
+      flex: none;
+      order: 2;
+      align-self: center;
+      flex-grow: 0;
+      position: absolute;
+      top: 352px;
+      left: 60px;
+      
+      }
+      
+      .more_three{
+      width: 127px;
+      height: 27px;
+      flex: none;
+      order: 3;
+      align-self: flex-start;
+      flex-grow: 0;
+      position: absolute;
+      top: 540px;
+      left: 60px;
+      }
+      .more_three p{
+      
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 27px;
+      
+      color: #FBD784;
+      
+      
+      }
+      .more_three img{
+        /* icon/navigation/arrow_downward_24px */
+      
+      position: absolute;
+      height: 24px;
+      bottom: 4px;
+      left: 100px;
+      
+      
+      }
+      .pikch_three{
+        width: 566px;
+        height: 720px;
+        left: 1136px;
+        top:3280px;
+        margin: 0px;
+        position: absolute;
+      
+      }
+
+      footer{
+        position: absolute;
+        top : 4209px;
+        left: 230px;
+  
+      }
+      .foot_text{
+        /* Get out there & discover your next slope, mountain & destination! */
+  
+  
+  margin-top: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  
+  color: #FFFFFF;
+  
+  
+      }
+      .list_1{
+        /* Links */
+  
+  position: absolute;
+  width: 209px;
+  height: 280px;
+  position: absolute;
+  left: 898px;
+  top: -10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+      }
+  
+    .list_1 ul li{
+      list-style: none;
+      margin-bottom: 15px;
+    }
+    .titul {
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size:24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  
+  /* Accent */
+  color: #FBD784;
+  
+  
+    }  
+  
+    .list_2{
+      /* Links */
+  
+  position: absolute;
+  width: 209px;
+  height: 280px;
+  position: absolute;
+  left: 1303px;
+  top: -10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+    }
+  
+  .list_2 ul li{
+    list-style: none;
+    margin-bottom: 15px;
+  }
+  .titr{
+    /* Copyright 2019 MNTN, Inc. Terms & Privacy */
+  
+  position: absolute;
+  width: 376px;
+  height: 32px;
+  left: 6.06px;
+  top: 235px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+  
+  color: #FFFFFF;
+  
+  opacity: 0.5;
+  
+  }
+  @media (max-width: 600px){
+    .account{
+      display: none;
+    }
+    .baner{
+      display: none;
+    }
+  }
